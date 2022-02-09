@@ -1,0 +1,70 @@
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.add-task-container{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.confirm-box{
+    transform: scale(2);
+    margin: 5px;
+}
+.delete-btn{
+    background: url('trash-alt-regular.svg') no-repeat;
+    width: 28px;
+    height: 28px;
+    /*border: solid black 1px;*/
+}
+.task{
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    flex-grow: 2;
+}
+.task-crossed-text{
+    text-decoration: line-through;
+}
+.list-container{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    /*border: 2px solid black;*/
+}
+#add-task-button{
+    margin: 5px;
+    background: #C8B8DB;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    width: 80px;
+    border: none;
+    height: 40px;
+
+}
+#input-task{
+    margin: 5px;
+    width: 500px;
+    border: #70587C;
+    border-bottom: #70587C 2px solid;
+}
+#task-list{
+    list-style: square;
+    flex-direction: column;
+    display: flex;
+   /* border: 1px solid gray;*/
+    width: 600px;
+    padding-left: 0px;
+}
+li{
+   /* border: red solid 1px;*/
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    margin-bottom: 5px;
+}
